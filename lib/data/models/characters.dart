@@ -9,6 +9,7 @@ class Charcter {
   late String actorName;
   late String category;
   late List<dynamic> betterCallSaulApperance;
+  
   Charcter.fromjson(Map<String, dynamic> json) {
     charId = json["char_Id"];
     name = json["name"];
