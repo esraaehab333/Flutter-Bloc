@@ -6,7 +6,7 @@ sealed class CharactersState {}
 final class CharactersInitial extends CharactersState {}
 
 final class CharactersLoading extends CharactersState {
-  final List<dynamic> characters;
+  final List<Charcter> characters;
 
   CharactersLoading({required this.characters});
 }
