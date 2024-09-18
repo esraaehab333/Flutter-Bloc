@@ -4,3 +4,9 @@ part of 'characters_cubit.dart';
 sealed class CharactersState {}
 
 final class CharactersInitial extends CharactersState {}
+
+final class CharactersLoading extends CharactersState {
+  final List<dynamic> characters;
+
+  CharactersLoading({required this.characters});
+}
